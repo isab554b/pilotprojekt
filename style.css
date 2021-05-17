@@ -1,4 +1,5 @@
-img {
+img,
+video {
   width: 100%;
   height: auto;
   display: block;
@@ -8,13 +9,6 @@ main {
   max-width: 1200px;
   margin: auto;
 }
-
-/* #first_section {
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: 0% 10%;
-} */
 
 h1 {
   font-family: "Kanit", sans-serif;
@@ -79,4 +73,8 @@ li a {
 a:hover,
 a:active {
   background-color: grey;
+}
+
+iframe {
+  width: 100%;
 }
